@@ -5,7 +5,7 @@ var adminprefix = '-'
 
 
 const developers = ["462010791483408385"]
-client.on('message', message => { Hi_Nart 
+client.on('message', message => { 
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
       
